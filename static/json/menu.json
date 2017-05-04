@@ -1,0 +1,130 @@
+[
+  {
+    "id": "1",
+    "name":"组织机构",
+    "path":"/org",
+    "icon":"user",
+    "children": [
+      {
+        "id": "1.1",
+        "name": "组织机构管理",
+        "path": "/org/manage"
+      },
+      {
+        "id": "1.2",
+        "name": "角色管理",
+        "path": "/org/roleManage"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name":"平台资源",
+    "path":"/resource",
+    "icon":"compass",
+    "children": [
+      {
+        "id": "2.1",
+        "name": "应用系统",
+        "path": "/resource/sys"
+      },
+      {
+        "id": "2.2",
+        "name": "数据库服务",
+        "path": "/resource/database"
+      },
+      {
+        "id": "2.3",
+        "name": "数据服务",
+        "path": "/resource/data"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name":"服务共享",
+    "path":"/share",
+    "icon":"share-alt",
+    "children": [
+      {
+        "id": "3.1",
+        "name": "应用接入审核",
+        "path": "/share/appRequest"
+      },
+      {
+        "id": "3.2",
+        "name": "服务申请审核",
+        "path": "/share/appApply"
+      },
+      {
+        "id": "3.3",
+        "name": "服务统一授权",
+        "path": "/share/auth"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name":"平台监控",
+    "path":"/monitor",
+    "icon":"clock-circle-o",
+    "children": [
+      {
+        "id": "4.1",
+        "name": "应用监控",
+        "path": "/monitor/app"
+      },
+      {
+        "id": "4.2",
+        "name": "服务监控",
+        "path": "/monitor/service"
+      },
+      {
+        "id": "4.3",
+        "name": "数据库服务监控",
+        "path": "/monitor/database"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name":"报表统计",
+    "path":"/report",
+    "icon":"bar-chart",
+    "children": [
+      {
+        "id": "5.1",
+        "name": "应用支撑统计",
+        "path": "/report/app"
+      },
+      {
+        "id": "5.2",
+        "name": "服务请求统计",
+        "path": "/report/service"
+      },
+      {
+        "id": "5.3",
+        "name": "报表专题",
+        "path": "/report/subject"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name":"系统设置",
+    "path":"/settings",
+    "icon":"setting",
+    "children": [
+      {
+        "id": "6.1",
+        "name": "开发商管理",
+        "path": "/settings/developer"
+      },
+      {
+        "id": "6.2",
+        "name": "修改密码",
+        "path": "/settings/pwd"
+      }
+    ]
+  }
+]

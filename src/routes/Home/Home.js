@@ -1,14 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router';
-import App from '../App';
-const Home = ({ location }) => {
-  return (
-    <App>
-      <HomeContainer location={location} />
-    </App>
-  );
-};
-class HomeContainer extends React.Component {
+import PCIndex from './PC_index/index'
+import MBIndex from './MB_index/index'
+import MediaQuery from 'react-responsive'
+class Home extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -21,7 +15,14 @@ class HomeContainer extends React.Component {
   }
   render(){
     return (
-      <div><Link to="/monitor/pointRainfall">app</Link></div>
+      <div>
+        <MediaQuery query="(min-device-width: 1224px)">
+            <PCIndex />
+        </MediaQuery>
+        <MediaQuery query="(max-device-width: 1224px)">
+            <MBIndex />
+        </MediaQuery>
+      </div>
     )
   }
 }
